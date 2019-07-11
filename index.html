@@ -10,38 +10,40 @@
     <body>
         <h1>Crazy Adventure!</h1>
         <p>
-        <label>
-            A Person's Name: <input type="text" id="person-name-1" />
-        </label>
-    </p>
-        <p>
-        <label>
-            Another Person's Name: <input type="text" id="person-name-2" />
-        </label>
-    </p>
-        <p>
-        <label>
-            Verb (ending with 'ing'): <input type="text" id="verb-1" />
-        </label>
-
-        <label>
-            Adverb: <input type="text" id="adverb-1" />
-        </label>
-        <p>
             <label>
-                Past Tense Verb: <input type="text" id="verb-2">
+                A Person's Name: <input type="text" id="person-name-1" />
             </label>
         </p>
         <p>
             <label>
-                Past Tense Verb: <input type="text" id="verb-2">
+                Another Person's Name: <input type="text" id="person-name-2" />
             </label>
         </p>
-        
+        <p>
+            <label>
+                Verb (ending with 'ing'): <input type="text" id="verb-1" />
+            </label>
+        </p>
+        <p>
+            <label> Animal: <input type="text" id="animal-1" /> </label>
+        </p>
+        <p>
+            <label> Adverb: <input type="text" id="adverb-1" /> </label>
+        </p>
+        <p>
+            <label> Past Tense Verb: <input type="text" id="verb-2" /> </label>
+        </p>
+        <p>
+            <label> Past Tense Verb: <input type="text" id="verb-3" /> </label>
+        </p>
+        <button onclick="revealMadlib()">Reveal Madlib!</button>
 
-        <div id="story"><span></span> and <span></span> were 
-            <span></span> through the woods, when suddenly a ferocious 
-            <span></span> appeared! <span></span> they <span></span> to a nearby tree, where they <span></span>
+        <div id="story">
+            <span id="person-name-1"></span> and
+            <span id="person-name-2"></span> were
+            <span id="verb-1"></span> through the woods, when suddenly a
+            ferocious <span id="animal-1"></span> appeared! <span id="adverb-1"></span> They
+            <span id="verb-2"></span> to a nearby tree, where they <span id="verb-3"></span>
             until the morning!
         </div>
         <script src="app.js"></script>
