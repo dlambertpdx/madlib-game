@@ -1,4 +1,19 @@
-/* #story {
-    display: none;
-  } */
-  
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#words {
+    color: blue;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+    background-color: #008cba;
+    color: antiquewhite;
+    padding: 15px;
+    font-size: 1.2em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
